@@ -3,6 +3,22 @@ LegacyConfig = {}
 -- Framework: 'auto' | 'qb-core' | 'qbox' | 'esx' | 'ox' | 'none'
 LegacyConfig.Framework = 'auto'
 
+LegacyConfig.AdminGroups = {
+  qbcore = { 'god', 'admin' },
+  qbox = { 'god', 'admin' },
+  esx = { 'admin', 'superadmin' },
+  ox = { 'admin' },
+}
+
+LegacyConfig.General_Customization = {
+  Notification_System = 2,
+    -- 1 = QBCore Notification
+    -- 2 = ESX Notification
+    -- 3 = ox_lib Notification
+    -- 4 = Custom Notification
+    -- If you are using a custom notification system, you will need to edit the client\functions.lua file.
+}
+
 -- Branding / Theme
 LegacyConfig.Brand = {
   serverName = 'Legacy Scripts', -- Server name to use in all of our ui branding
