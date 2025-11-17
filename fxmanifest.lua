@@ -18,6 +18,7 @@ server_scripts {
 
 client_scripts {
   'client/init.lua',
+  'client/functions.lua',
   'client/theme.lua',
 }
 

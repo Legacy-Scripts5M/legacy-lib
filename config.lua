@@ -11,7 +11,7 @@ LegacyConfig.AdminGroups = {
 }
 
 LegacyConfig.General_Customization = {
-  Notification_System = 2,
+  Notification_System = 1,
     -- 1 = QBCore Notification
     -- 2 = ESX Notification
     -- 3 = ox_lib Notification
